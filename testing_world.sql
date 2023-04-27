@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.19, for osx10.14 (x86_64)
 --
--- Host: 127.0.0.1    Database: world
+-- Host: 127.0.0.1    Database: testing_world
 -- ------------------------------------------------------
 -- Server version	8.0.19-debug
 
@@ -17,14 +17,14 @@
 SET @old_autocommit=@@autocommit;
 
 --
--- Current Database: `world`
+-- Current Database: `testing_world`
 --
 
-/*!40000 DROP DATABASE IF EXISTS `world`*/;
+/*!40000 DROP DATABASE IF EXISTS `testing_world`*/;
 
-CREATE DATABASE `world` DEFAULT CHARACTER SET utf8mb4;
+CREATE DATABASE `testing_world` DEFAULT CHARACTER SET utf8mb4;
 
-USE `world`;
+USE `testing_world`;
 
 --
 -- Table structure for table `city`
@@ -5417,11 +5417,11 @@ INSERT INTO `countrylanguage` VALUES ('ZWE','Shona','F',72.1);
 commit;
 
 --
--- Dumping events for database 'world'
+-- Dumping events for database 'testing_world'
 --
 
 --
--- Dumping routines for database 'world'
+-- Dumping routines for database 'testing_world'
 --
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
